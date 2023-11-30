@@ -58,7 +58,6 @@ int main(){
 
 	}while (choices != 4);
 
-	
 }
 
 
@@ -74,7 +73,7 @@ int main_menu(float balance){
 	cout << "_/        _/    _/        _/    _/    _/    _/_/  _/    _/   " << endl;
 	cout << " _/_/_/  _/    _/  _/_/_/    _/_/_/  _/      _/    _/_/      " << endl;
 	cout << "_____________________________________________________________" << endl;
-	cout << "\t\tTotal Balance: " << balance << endl;                                                             
+	cout << "\t\tTotal Balance: $" << balance << endl;                                                             
 	cout << endl;
 	cout << "\t\t[1] - Games\n";
 	cout << endl;
@@ -301,7 +300,7 @@ void roulette(float& balance){
 				cout <<" _/    _/  _/    _/  _/    _/  _/  _/          _/      _/      _/        " << endl; 
 				cout <<"_/    _/    _/_/      _/_/_/  _/    _/_/_/      _/_/    _/_/    _/_/_/   " << endl;
 				cout << "________________________________________________________________________" << endl;
-				cout << "Enter amount to bet: ";
+				cout << "Enter amount to bet: $";
 				cin >> bet;
 
 				// Checks if balance is enough
